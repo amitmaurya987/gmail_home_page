@@ -1,0 +1,31 @@
+
+.right-sidebar-box{
+    padding: 16px 8px;
+    width: 56px;
+    right: -56PX;
+    height: 100%;
+    border-left: 1px solid #f1f1f1;
+    z-index: 20;
+    background-color: #fff;
+    transition: all 100ms;
+}
+.right_sidebar_box{
+    right: 0px;
+}
+.right-sidebar-icons img{
+    opacity: 1;
+}
+.right-sidebar-icons{
+    flex-direction: column;
+    
+}
+.right-sidebar-box a{
+    margin-bottom: 17px;
+}
+
+.right-sidebar-border{
+    border-bottom: 1px solid #f1f1f1;
+    width: 20px;
+    margin: auto;
+    margin-bottom: 22px;
+}

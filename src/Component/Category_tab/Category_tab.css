@@ -1,0 +1,19 @@
+
+.category-bar > div{
+    padding: 18px;
+    width: 251px;
+    cursor: pointer;
+   
+}
+.category-bar img{
+    margin-right: 20px;
+    opacity: 1;
+}
+.category-bar > div:hover{
+ background-color: #f1f3f4;
+}
+.category-bar-1{
+    border-bottom: 3px solid  #d93025;
+    color: #d93025;
+    background-color: #f1f3f4;
+}

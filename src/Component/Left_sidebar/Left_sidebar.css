@@ -1,0 +1,130 @@
+
+/*left sidebar start */
+.left-sidebar-box{
+    width: 70px;
+    left: 0px;
+    height: calc(100%-64px);
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 10;
+    background-color: #fff;
+    border-right: 1px solid #f1f1f1;
+    transition: all 100ms;
+}
+
+.plus-icon{
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    cursor: pointer;
+    align-items: center;
+}
+.plus-icon img{
+    width: 32px;
+    margin: 12px;
+}
+.plus-icon-text{
+    align-self: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*left-sidebar-top start*/
+.left-sidebar-top{
+    height: 260px;
+    margin-top: 80px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: 1px solid #f1f1f1;
+    z-index: 20;
+    background-color: #fff;
+}
+.left-sidebar-icon a,
+#more{
+    margin: 0 16px 0 16px;   
+}
+#more{
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.left-sidebar-box span{
+    display: none;
+}
+#category{
+    padding: 8px;
+    cursor: pointer;
+}
+#more:hover,#category:hover{
+    background-color: rgba(60,64,67,0.078);
+}
+.left-sidebar-box span.count{
+    float: right;
+   margin-left: auto; 
+}
+
+.hangout-box{
+    position: relative;
+    margin: 0 18px;
+    color: rgb(44, 43, 43);
+     height: 30px;
+    overflow: hidden; 
+    border-top: 1px solid #f1f1f1;
+    font-size: 14px;
+}
+
+
+/*left-sidebar-top end */
+
+.left-sidebar-bottom .profile-img img{
+    width: 28px;
+    height: 28px;
+    margin-right: 2px;
+}
+
+.left-sidebar-footer{
+    width: 100%;
+    margin-left: 72px;
+}
+
+/*left-sidebar-top hover */
+div.left-sidebar-box:hover {
+    width: 240px;
+}
+.leftSidebarIcon img,
+ .left-sidebar-box:hover .left-sidebar-icon img{
+    margin-right: 16px;
+}
+.left-sidebar-box:hover
+.left-sidebar-icon a{
+    margin: 0 10px 0 16px;   
+}
+.left-sidebar-box:hover 
+#category-box a{
+    padding-left: 34px;
+}
+ .left-sidebar-box:hover span{
+     display: inline;
+ }
+ .left-sidebar-box:hover .left-sidebar-icon a,#more{
+    padding: 8px 24px;
+    margin-left: 0px;
+    color: black;
+    border-radius: 0 22px 22px 0;   
+}
+.left-sidebar-box:hover .plus-icon{
+   
+    width: 145px;
+    border-radius: 24px;
+    box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    background-color: #fafafb;
+    height: 48px;
+}
+/*left-sidebar-top hover  end*/
+/*left sidebar end */

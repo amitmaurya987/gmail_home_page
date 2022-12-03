@@ -1,0 +1,34 @@
+
+.main-box-header{
+    padding: 3.5px;
+    justify-content: space-between;
+    width: calc(100% - 78px);
+    z-index: 6;
+    background-color: #fff;
+    transition: all 100ms;
+}
+.main_box_header{
+    width: calc(100% - 134px);
+}
+
+.check-box{
+    align-self: center;
+    padding: 8px;
+}
+.check-box input{
+    outline: 2px solid rgba(0, 0, 0,.5);
+    outline-offset: -1px;;
+    vertical-align: middle;
+    margin: 3px;
+}
+.headerRight div{
+    padding: 8px;
+    font-size: 14px; 
+    color: rgba(0, 0, 0,.6);  
+}
+ 
+.mainBoxHeader div:hover,
+.check-box:hover{
+    background-color: #f1f3f4;
+    border-radius: 4px;
+}

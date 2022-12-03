@@ -1,0 +1,78 @@
+
+.mail{
+    cursor: pointer;
+    padding: 1.5px 0;
+}
+.mail-box{
+    padding: 0 0 0 4px;
+    position: relative;
+    
+}
+
+.padding-8{
+    padding: 8px;
+}
+.mail-box-left{
+    width: 280px;
+    flex-shrink: 0;
+}
+.mail-box-time{
+    position: absolute;
+    right: 2px;
+    top: 9.5px;
+    width: 200px;
+    height: 25px;
+    text-align: right;
+    padding-right: 8px;
+    background-color: #fff;
+    z-index: 5;
+    
+}
+.mail-box-right{
+    overflow-x: hidden;
+}
+.mail-box-menu{
+    position: absolute;
+    justify-content: flex-end;
+    right: 2px;
+    top: 2px;
+    width: 200px;
+    padding: 0 8px;
+    background-color: #fff;
+    z-index: 4; 
+}
+.attachment{
+    margin: 0 200px 10px 280px;
+    font-size: 14px;
+   max-width: 500px;
+    overflow-x: hidden;
+}
+.attachment img{
+    margin-right: 8px;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+}
+.attachment > a{
+    display: flexbox;
+    padding: 5px 12px;
+    margin-right: 8px;
+    border: 1px solid rgba(0, 0, 0,.4);
+    border-radius: 24px;
+    align-items: center;
+    color: rgba(0, 0, 0,.5);
+}
+a.count-attech{
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+.attachment > a:hover{
+    background-color: #f1f3f4;
+}
+.mail:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    z-index: 3;
+}
+.mail:hover .mail-box-menu{ 
+    z-index: 6;
+ }
